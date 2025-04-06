@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Details</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="Logos/logo.png">
+</head>
+<body>
+  <header>
+    <h1 id="gameTitle">Loading...</h1>
+  </header>
+
+  <main class="game-detail">
+    <img id="gameImage" src="" alt="Game" />
+    <p id="gameDescription"></p>
+
+    <h3>Minimum Requirements</h3>
+    <ul id="gameRequirements"></ul>
+
+    <h3>Download Links</h3>
+    <ul id="gameLinks"></ul>
+  </main>
+
+  <footer>
+    <p><a href="index.html" style="color:#00ffc8;">← Back to Games</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Get query param
+    const params = new URLSearchParams(window.location.search);
+    const gameId = params.get("game");
+
+    const game = games.find(g => g.id === gameId);
+
+    if (!game) {
+      document.body.innerHTML = "<h1 style='text-align:center;'>Game not found</h1>";
+    } else {
+      document.getElementById("gameTitle").textContent = game.title;
+      document.getElementById("gameImage").src = game.image;
+      document.getElementById("gameImage").alt = game.title;
+      document.getElementById("gameDescription").textContent = game.description;
+
+      const reqList = document.getElementById("gameRequirements");
+      game.requirements.forEach(req => {
+        const li = document.createElement("li");
+        li.textContent = req;
+        reqList.appendChild(li);
+      });
+
+      const linkList = document.getElementById("gameLinks");
+      game.downloadLinks.forEach(dl => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = dl.url;
+        a.textContent = dl.label;
+        a.style.color = "#00ffc8";
+        a.target = "_blank";
+        li.appendChild(a);
+        linkList.appendChild(li);
+      });
+    }
+  </script>
+</body>
+</html>
