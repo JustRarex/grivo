@@ -203,3 +203,14 @@
     right: 10px;
     /* ... other styles ... */
   }
+
+  #gameInstructions {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  #gameInstructions li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+  }
+  
