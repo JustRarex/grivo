@@ -16,6 +16,9 @@
     <img id="gameImage" src="" alt="Game" />
     <p id="gameDescription"></p>
 
+    <h3>Instructions</h3>
+    <ul id="gameInstructions"></ul>
+    
     <h3>Minimum Requirements</h3>
     <ul id="gameRequirements"></ul>
 
@@ -62,6 +65,23 @@
         linkList.appendChild(li);
       });
     }
+
+    game.downloadLinks.forEach(dl => {
+  // existing download link creation
+});
+
+
+const instList = document.getElementById("gameInstructions");
+if (game.instructions && game.instructions.length > 0) {
+  game.instructions.forEach(step => {
+    const li = document.createElement("li");
+    li.textContent = step;
+    instList.appendChild(li);
+  });
+} else {
+  instList.innerHTML = "<li>No instructions available.</li>";
+}
+
   </script>
 </body>
 </html>
