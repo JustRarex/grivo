@@ -4,6 +4,13 @@ const games = [
     title: "Schedule I",
     image: "/Logos/s1.png",
     description: "You're a small-time drug dealer rolling into a fresh town with no cash, no product and no connections. Build your drug empire from the ground up in the grungy west-coast city of Hyland Point. Contend against intensifying law enforcement and deadly cartel competitors to expand your empire and reach the peak of the underworld.",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the 'ScheduleI.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
     requirements: [
       "OS: Windows 10 (64-bit)",
       "Processor: 3GHz 4-Core or similar",
@@ -13,7 +20,7 @@ const games = [
     ],
     downloadLinks: [
       { label: "MediaFire", url: "https://www.mediafire.com/file/hld2ers7bpqny8c/Schedule.I+MP.zip/file" },
-      { label: "Mega", url: "https://mega.nz/file/2UkQxKjJ#z-yL0qrNFMVm8im7Rc-2QTdQcNeBgJDYOEW3KG2eM5A" }
+      { label: "Mega.nz", url: "https://mega.nz/file/2UkQxKjJ#z-yL0qrNFMVm8im7Rc-2QTdQcNeBgJDYOEW3KG2eM5A" }
     ]
   },
   {
@@ -21,8 +28,15 @@ const games = [
     title: "My Summer Car",
     image: "/Logos/msc.png",
     description: "MY SUMMER CAR is the ultimate car owning, building, fixing, tuning, maintenance AND permadeath life survival simulator. You start the game with hundreds of loose parts and assemble both car and engine. Not only you need to maintain your car, but yourself as well. Sausages, beer and sleeping will do just fine.",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the 'mysummercar.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
     requirements: [
-      "64bit versions of Windows 7, Windows 8, Windows 10",
+      "OS *: 64bit versions of Windows 7, Windows 8, Windows 10",
       "Processor: 3GHz 4-Core or similar",
       "Memory: 6 GB RAM",
       "Graphics: Nvidia GTX 960 or AMD equivalent",
@@ -30,7 +44,7 @@ const games = [
     ],
     downloadLinks: [
       { label: "MediaFire", url: "https://www.mediafire.com/file/bsnb1rou0ltmbdo/My.Summer.Car+MP.zip/file" },
-      { label: "Mega", url: "https://mega.nz/file/adc0CTgR#0d3mvfEZYbO9J2h42oCp7Z6fEj_wK52f_lkO-PiDqOE" }
+      { label: "Mega.nz", url: "https://mega.nz/file/adc0CTgR#0d3mvfEZYbO9J2h42oCp7Z6fEj_wK52f_lkO-PiDqOE" }
     ]
   },
   {
@@ -38,6 +52,13 @@ const games = [
     title: "The Long Drive",
     image: "/Logos/tld.png",
     description: "This is a road trip game in an almost infinite random generated desert. The focus is on freedom, driving, exploration and immersion. It has minimal car maintenance and survival elements.",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the 'TheLongDrive.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
     requirements: [
       "OS: Windows 10 (64-bit)",
       "Processor: 3 GHZ dual core processor",
@@ -47,7 +68,7 @@ const games = [
     ],
     downloadLinks: [
       { label: "MediaFire", url: "https://www.mediafire.com/file/nhif4yn0cbxlaok/The.Long.Drive+MP.zip/file"},
-      { label: "Mega", url: "https://mega.nz/file/GEFC1AyB#VYCvdu5b0QSNCl9o8kXp6BBd-1yTP1rh_t8Um0aFMOc" }
+      { label: "Mega.nz", url: "https://mega.nz/file/GEFC1AyB#VYCvdu5b0QSNCl9o8kXp6BBd-1yTP1rh_t8Um0aFMOc" }
     ]
   },
   {
@@ -55,6 +76,13 @@ const games = [
     title: "BIGFOOT",
     image: "/Logos/bigfoot.png",
     description: "You are a Bigfoot hunter with an important mission: to put an end to rumours once and for all and prove to yourself that Bigfoot is not just a myth or an invention of the mind... His existence is real, real enough to make your blood run cold. Collect ammunition, study the terrain, and defend yourself from predators. You must use everything available to you to avoid becoming the bottom link of the food chain and to survive the wilderness of the American wildlife sanctuaries.",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the 'Bigfoot.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
     requirements: [
       "OS *: Windows 7, 8.1, 10, 11 (Only 64bit)",
       "Processor: Intel i3 8130U(2Cores, 2.3GHz) or equivalent",
@@ -63,15 +91,22 @@ const games = [
       "Storage: 10 GB available space"
     ],
     downloadLinks: [
-      { label: "Mega", url: "https://mega.nz/file/fYNRCbpS#LKsAr0tqYGuB_So3wpfBNXRT4zPscmyZwzNxkLEO5Ik"},
-      { label: "MediaFire", url: "https://www.mediafire.com/file/bbalgr38qb3176a/BIGFOOT+MP.zip/file" }
+      { label: "MediaFire", url: "https://www.mediafire.com/file/bbalgr38qb3176a/BIGFOOT+MP.zip/file"},
+      { label: "Mega.nz", url: "https://mega.nz/file/fYNRCbpS#LKsAr0tqYGuB_So3wpfBNXRT4zPscmyZwzNxkLEO5Ik" }
     ]
   },
     {
     id: "phasmophobia",
     title: "Phasmophobia",
     image: "/Logos/phasmophobia.png",
-    description: "Phasmophobia is a 4-player, online co-op, psychological horror game. You and your team of paranormal investigators will enter haunted locations filled with paranormal activity and try to gather as much evidence as you can. Use your ghost-hunting equipment to find and record evidence to sell on to a ghost removal team.",
+    description: "Phasmophobia is a 4-player, online co-op, psychological horror game. You and your team of paranormal investigators will enter haunted locations filled with paranormal activity and try to gather as much evidence as you can. Use your ghost-hunting equipment to find and record evidence to sell on to a ghost removal team. -- Creddit To https://www.skidrowreloaded.com/",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the game with the 'Launcher.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
     requirements: [
       "OS: Windows 10 64Bit",
       "Processor: Intel Core i5-4590 / AMD Ryzen 5 2600",
@@ -80,8 +115,33 @@ const games = [
       "Storage: 21 GB available space"
     ],
     downloadLinks: [
-      { label: "Mega", url: "https://mega.nz/file/fYNRCbpS#LKsAr0tqYGuB_So3wpfBNXRT4zPscmyZwzNxkLEO5Ik"},
-      { label: "MediaFire", url: "https://www.mediafire.com/file/bbalgr38qb3176a/BIGFOOT+MP.zip/file" }
+      { label: "GoFile (recomanded)", url: "https://gofile.io/d/o12mjU"},
+      { label: "1Fichier", url: "https://1fichier.com/?gpq9elmwoobqihg1mklj" }
+    ]
+  },
+
+  {
+    id: "comingsoon",
+    title: "Coming Soon!",
+    image: "/Logos/GD.png",
+    description: "??",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the '??.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
+    requirements: [
+      "???",
+      "???",
+      "???",
+      "???",
+      "???"
+    ],
+    downloadLinks: [
+      { label: "??", url: "/index.html"},
+      { label: "??", url: "/index.htm" }
     ]
   },
 ];
