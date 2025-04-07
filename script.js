@@ -51,16 +51,33 @@ const games = [
     ]
   },
   {
-    id: "comingsoon",
-    title: "Coming Soon!",
+    id: "bigfoot",
+    title: "BIGFOOT",
     image: "/Logos/bigfoot.png",
-    description: "???",
+    description: "You are a Bigfoot hunter with an important mission: to put an end to rumours once and for all and prove to yourself that Bigfoot is not just a myth or an invention of the mind... His existence is real, real enough to make your blood run cold. Collect ammunition, study the terrain, and defend yourself from predators. You must use everything available to you to avoid becoming the bottom link of the food chain and to survive the wilderness of the American wildlife sanctuaries.",
     requirements: [
-      "???",
-      "???",
-      "???",
-      "???",
-      "???"
+      "OS *: Windows 7, 8.1, 10, 11 (Only 64bit)",
+      "Processor: Intel i3 8130U(2Cores, 2.3GHz) or equivalent",
+      "Memory: 2 GB RAM",
+      "Graphics: NVIDIA GeForce GT 730 or equivalent",
+      "Storage: 10 GB available space"
+    ],
+    downloadLinks: [
+      { label: "Mega", url: "https://mega.nz/file/fYNRCbpS#LKsAr0tqYGuB_So3wpfBNXRT4zPscmyZwzNxkLEO5Ik"},
+      { label: "MediaFire", url: "https://www.mediafire.com/file/bbalgr38qb3176a/BIGFOOT+MP.zip/file" }
+    ]
+  },
+    {
+    id: "phasmophobia",
+    title: "Phasmophobia",
+    image: "/Logos/phasmophobia.png",
+    description: "Phasmophobia is a 4-player, online co-op, psychological horror game. You and your team of paranormal investigators will enter haunted locations filled with paranormal activity and try to gather as much evidence as you can. Use your ghost-hunting equipment to find and record evidence to sell on to a ghost removal team.",
+    requirements: [
+      "OS: Windows 10 64Bit",
+      "Processor: Intel Core i5-4590 / AMD Ryzen 5 2600",
+      "Memory: 8 GB RAM",
+      "Graphics: NVIDIA GTX 970 / AMD Radeon R9 390",
+      "Storage: 21 GB available space"
     ],
     downloadLinks: [
       { label: "Mega", url: "https://mega.nz/file/fYNRCbpS#LKsAr0tqYGuB_So3wpfBNXRT4zPscmyZwzNxkLEO5Ik"},
