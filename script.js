@@ -63,7 +63,7 @@ const games = [
       "???"
     ],
     downloadLinks: [
-      { label: "???", url: "/index.html"},
+      { label: "Mega", url: "https://mega.nz/file/fYNRCbpS#LKsAr0tqYGuB_So3wpfBNXRT4zPscmyZwzNxkLEO5Ik"},
       { label: "???", url: "/index.html" }
     ]
   },
