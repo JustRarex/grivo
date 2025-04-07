@@ -64,7 +64,7 @@ const games = [
     ],
     downloadLinks: [
       { label: "Mega", url: "https://mega.nz/file/fYNRCbpS#LKsAr0tqYGuB_So3wpfBNXRT4zPscmyZwzNxkLEO5Ik"},
-      { label: "???", url: "/index.html" }
+      { label: "MediaFire", url: "https://www.mediafire.com/file/bbalgr38qb3176a/BIGFOOT+MP.zip/file" }
     ]
   },
 ];
