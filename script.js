@@ -53,7 +53,7 @@ const games = [
   {
     id: "comingsoon",
     title: "Coming Soon!",
-    image: "/Logos/phasmophobia.png",
+    image: "/Logos/bigfoot.png",
     description: "???",
     requirements: [
       "???",
