@@ -121,27 +121,52 @@ const games = [
   },
 
   {
-    id: "comingsoon",
-    title: "Coming Soon!",
+    id: "geometrydash",
+    title: "Geometry Dash",
     image: "/Logos/GD.png",
-    description: "??",
+    description: "Prepare for a near impossible challenge in the world of Geometry Dash. Push your skills to the limit as you jump, fly and flip your way through dangerous passages and spiky obstacles.",
     instructions: [
       "Download the ZIP file from any of the available links.",
       "Extract it using WinRAR / 7-Zip.",
-      "Run the '??.exe' file.",
+      "Run the 'GeometryDash.exe' file.",
       "Allow any firewall permissions.",
       "Enjoy the game!"
     ],
     requirements: [
-      "???",
-      "???",
-      "???",
-      "???",
-      "???"
+      "OS *: Windows XP",
+      "Processor: 2.0+ GHz",
+      "Memory: 512 MB RAM",
+      "Graphics: OpenGL 2.0 support",
+      "Storage: 100 MB available space"
     ],
     downloadLinks: [
-      { label: "??", url: "/index.html"},
-      { label: "??", url: "/index.htm" }
+      { label: "PixelDrain (recomanded)", url: "https://pixeldrain.com/u/EmUJMj9b"},
+      { label: "MediaFire", url: "https://www.mediafire.com/file/nzn0zvvzsji7654/Geometry.Dash.zip/file" }
+    ]
+  },
+
+  {
+    id: "comingsoon",
+    title: "Coming Soon!",
+    image: "/Logos/LB.png",
+    description: "Prepare for a near impossible challenge in the world of Geometry Dash. Push your skills to the limit as you jump, fly and flip your way through dangerous passages and spiky obstacles.",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the 'GeometryDash.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
+    requirements: [
+      "OS *: Windows XP",
+      "Processor: 2.0+ GHz",
+      "Memory: 512 MB RAM",
+      "Graphics: OpenGL 2.0 support",
+      "Storage: 100 MB available space"
+    ],
+    downloadLinks: [
+      { label: "PixelDrain (recomanded)", url: "https://pixeldrain.com/u/EmUJMj9b"},
+      { label: "MediaFire", url: "https://www.mediafire.com/file/nzn0zvvzsji7654/Geometry.Dash.zip/file" }
     ]
   },
 ];
