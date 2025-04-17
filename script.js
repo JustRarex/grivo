@@ -168,7 +168,30 @@ const games = [
       { label: "PixelDrain (recomanded)", url: "https://pixeldrain.com/u/UhozaBhu"}
     ]
   },
-
+  {
+    id: "chainedtogether",
+    title: "Chained Together",
+    image: "/Logos/ct.png",
+    description: "Begin your journey in the depths of hell, chained to your companions. Your mission is to escape hell by climbing as high as possible. - creddit to https://https://www.skidrowreloaded.com/",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the 'Liar's Bar.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
+    requirements: [
+      "OS *: Windows 8/10/11 (64-Bit)",
+      "Processor: Intel Core i5-6600@ 3.1 GHz or AMD R5 1600X @ 3.5 GHz or equivalent",
+      "Memory: 8 GB RAM",
+      "Graphics: NVIDIA GeForce GTX 1650 or equivalent",
+      "Storage: 8 GB available space"
+    ],
+    downloadLinks: [
+      { label: "Mega.nz", url: "https://mega.co.nz/#!M8gn0DSS!Fqgd7dcny9Q2ijkWB9XBLYWzdkKBVDcENbLx5MAox5A"},
+      { label: "MediaFire", url: "https://www.mediafire.com/file/qqhnbxml1t9rend/Chained.Together.v1.8.6.7z/file"}
+    ]
+  },
   {
     id: "comingsoon",
     title: "Coming Soon!",
