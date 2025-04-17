@@ -168,6 +168,30 @@ const games = [
       { label: "PixelDrain (recomanded)", url: "https://pixeldrain.com/u/UhozaBhu"}
     ]
   },
+
+  {
+    id: "comingsoon",
+    title: "Coming Soon!",
+    image: "/Logos/repo.png",
+    description: "Prepare for a near impossible challenge in the world of Geometry Dash. Push your skills to the limit as you jump, fly and flip your way through dangerous passages and spiky obstacles.",
+    instructions: [
+      "Download the ZIP file from any of the available links.",
+      "Extract it using WinRAR / 7-Zip.",
+      "Run the 'Liar's Bar.exe' file.",
+      "Allow any firewall permissions.",
+      "Enjoy the game!"
+    ],
+    requirements: [
+      "OS: Windows® 10 (64-bit)",
+      "Processor: Intel® Core™ i5-4670 (quad-core) / AMD® FX-Series™ FX-4350 (quad-core)",
+      "Memory: 4 GB RAM",
+      "Graphics: NVIDIA® GeForce® GTX 1050 (2 GB) / AMD® Radeon™ RX-460 (4 GB) / Intel® Arc™ A380 (6 GB)",
+      "Storage: 4 GB available space  "
+    ],
+    downloadLinks: [
+      { label: "PixelDrain (recomanded)", url: "https://pixeldrain.com/u/UhozaBhu"}
+    ]
+  },
 ];
 
 const gameList = document.getElementById('gameList');
